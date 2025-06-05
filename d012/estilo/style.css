@@ -31,7 +31,7 @@ header h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 3.5em;
+    font-size: 4.5em;
 }
 
 header p {
@@ -54,6 +54,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 18px;
 }
 
 section.imagem > p {
@@ -66,6 +67,20 @@ section.imagem > p {
 section.normal {
     background-color: white;
     color: black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
