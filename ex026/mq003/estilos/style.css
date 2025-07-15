@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Aparelhos em modo retrato (portrait) */
+@media screen and (orientation: portrait) {
+    body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+
+/* Aparelhos em modo paisagem (landscape) */
+
+@media screen and (orientation: landscape) {
+    body {
+    background: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+/* Configurações Geais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
