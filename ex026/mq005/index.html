@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="links">
+            <ul>
+                <li><a href="#">Link 01</a></li>
+                <li><a href="#">Link 02</a></li>
+                <li><a href="#">Link 03</a></li>
+                <li><a href="#">Link 04</a></li>
+                <li><a href="#">Link 05</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testanto Media Query</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, provident tenetur ea expedita similique facere facilis consequatur ab eos. Deleniti iusto dignissimos, iste nemo praesentium aut ipsam hic? Facilis, debitis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptate eum! Voluptatem, nisi enim illo sed libero, adipisci eveniet dolorem, obcaecati accusantium unde ut optio quia. Sint aspernatur neque eaque?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sapiente eum consectetur consequuntur aut doloremque voluptates quasi tempora veritatis repellendus omnis amet earum aliquid porro ut voluptatibus laudantium, tenetur veniam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis totam repudiandae aspernatur eligendi. Asperiores temporibus illum accusamus, voluptatem quaerat, iure a, facere magnam ipsum nemo nobis rem provident numquam?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (links.style.display =='block') {
+                links.style.display = 'none'
+            } else { 
+                links.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
