@@ -12,3 +12,15 @@ header > nav > a {
     width: 90vw;
 }
 
+main {
+    margin: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main > p {
+    text-align: justify;
+}

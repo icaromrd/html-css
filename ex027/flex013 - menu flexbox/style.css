@@ -53,9 +53,19 @@ header > nav > a:hover {
 
 main {
     background-color: white;
-    margin: 10px;
+    margin: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px black;
+    max-width: 800px;
     
+}
+
+main > h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main > p {
+    text-align: justify;
 }
